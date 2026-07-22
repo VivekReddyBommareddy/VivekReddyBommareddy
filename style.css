@@ -495,3 +495,52 @@ color:#aaa;
 font-size:15px;
 
 }
+.stats-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+gap:30px;
+
+margin-top:50px;
+
+}
+
+.stat-card{
+
+background:rgba(255,255,255,.05);
+
+padding:40px;
+
+border-radius:20px;
+
+text-align:center;
+
+transition:.4s;
+
+}
+
+.stat-card:hover{
+
+transform:translateY(-12px);
+
+box-shadow:0 25px 40px rgba(0,171,240,.25);
+
+}
+
+.stat-card h1{
+
+font-size:55px;
+
+color:#00abf0;
+
+margin-bottom:15px;
+
+}
+
+.stat-card p{
+
+font-size:18px;
+
+}
