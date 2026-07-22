@@ -544,3 +544,12 @@ margin-bottom:15px;
 font-size:18px;
 
 }
+section{
+
+opacity:0;
+
+transform:translateY(60px);
+
+transition:1s;
+
+}
